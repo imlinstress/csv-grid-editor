@@ -1,0 +1,13 @@
+Package: csv-grid-editor
+Version: @VERSION@
+Section: utils
+Priority: optional
+Architecture: all
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-3.0
+Maintainer: Local User <me@localhost>
+Description: Rainbow CSV-style GTK editor with aligned columns and line numbers
+ Edit CSV files in a spreadsheet-like grid with a pinned line-number column.
+ Columns use distinct rainbow colors on a dark background, with alternating
+ row colors that follow the system theme, hover info, CSVLint checks,
+ RBQL-style queries, Group By column counts, empty-row cleanup, and Excel
+ or Markdown clipboard export. Column widths and alignment are adjustable.
