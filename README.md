@@ -4,6 +4,20 @@ A GTK3 CSV editor for Debian/Ubuntu with a spreadsheet-style grid, Rainbow CSV-s
 
 Current version: **1.4.1**.
 
+## About
+
+| Detail | Value |
+| --- | --- |
+| Repository | `imlinstress/csv-grid-editor` |
+| URL | https://github.com/imlinstress/csv-grid-editor |
+| Default branch | `main` |
+| Package name | `csv-grid-editor` |
+| Platform | Debian/Ubuntu with Python 3, GTK 3, and PyGObject |
+| UI toolkit | GTK 3 |
+| Project type | Desktop application with local Debian packaging |
+
+This repository contains the complete source, packaging metadata, build script, and released `.deb` packages. `build.sh` stages the application into `dist/build-root` and produces the installable package in `dist/`.
+
 ## Features
 
 - Rainbow colors per column, with contrast-aware text on light and dark themes.
